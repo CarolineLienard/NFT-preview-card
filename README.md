@@ -1,4 +1,4 @@
-# NFT card 💎✨
+# NFT preview card 💎✨
 # Front-end challenge with HTML and CSS
 
 This is my solution to the NFT card component Front-end mentor's challenge (https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-HJg75Jm75).This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.

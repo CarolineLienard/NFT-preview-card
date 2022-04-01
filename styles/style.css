@@ -23,12 +23,39 @@ body {
     flex-direction: column;
 }
 
-#nftImage {
+.imageContainer {
+    position: relative;
     width: 302px;
     height: 302px;
-    border-radius: 8px;
     margin: 24px;
 }
+
+#nftImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s ease;
+    background-color: rgba(0, 255, 248, 50.3%);
+    border-radius: 8px;
+    display: none;
+  }
+
+  .imageContainer:hover .overlay {
+    display: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 #nftTitle {
     color: white;
@@ -127,5 +154,9 @@ body {
 
 #authorName {
     color: white;
-    font-style: normal;
+    text-decoration: none;
+}
+
+#authorName:hover {
+    color: #00FFF8;
 }

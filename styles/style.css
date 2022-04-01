@@ -10,3 +10,99 @@ body {
 
 /** Component **/
 
+#nftCard {
+    background-color: #15263F;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+}
+
+#nftImage {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+#nftTitle {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    width: 302px;
+    height: 28px;
+}
+
+#nftTitle:hover {
+    color: #00FFF8;
+}
+
+#nftDescription {
+    color: #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    width: 302px;
+    height: 52px;
+}
+
+#priceSection {
+    width: 301px;
+    height: 20px;
+}
+
+#nftPrice {
+    color: #00FFF8;
+    font-weight: 500;
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+}
+
+#iconEth {
+    width: 11px;
+    height: 18px;
+}
+
+#timeLeft {
+    color: #8BACD9;
+    font-size: 16px;
+    font-weight: 300;
+    width: 73px;
+    height: 20px;
+}
+
+#iconClock {
+    width: 16px;
+    height: 16px;
+}
+
+/**#cardSeparation {
+    width: 302px;
+    height: 1px;
+    color: #2E405A;
+    border: none;
+}**/
+
+#cardCredits {
+    width: 230px;
+    height: 33px;
+    border-top: 1px solid #2E405A;
+}
+
+#authorImg {
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+#nftAuthor {
+    color: #8BACD9;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#authorName {
+    color: white;
+    font-style: normal;
+}

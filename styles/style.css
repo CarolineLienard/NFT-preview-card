@@ -6,6 +6,10 @@
 
 body {
     background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 152px 545px 152px 545px;
 }
 
 /** Component **/
@@ -15,12 +19,15 @@ body {
     width: 350px;
     height: 596px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #nftImage {
     width: 302px;
     height: 302px;
     border-radius: 8px;
+    margin: 24px;
 }
 
 #nftTitle {
@@ -30,6 +37,7 @@ body {
     font-weight: 400;
     width: 302px;
     height: 28px;
+    margin: 0px 24px 16px 24px;
 }
 
 #nftTitle:hover {
@@ -43,50 +51,64 @@ body {
     line-height: 26px;
     width: 302px;
     height: 52px;
+    margin: 0px 24px 24px 24px;
 }
 
 #priceSection {
     width: 301px;
     height: 20px;
+    margin: 0px 24px 24px 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #nftPrice {
     color: #00FFF8;
     font-weight: 500;
     font-size: 16px;
-    width: 75px;
+    width: auto;
     height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #iconEth {
     width: 11px;
     height: 18px;
+    margin-right: 6.5px;
 }
 
 #timeLeft {
     color: #8BACD9;
     font-size: 16px;
     font-weight: 300;
-    width: 73px;
+    width: auto;
     height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #iconClock {
     width: 16px;
     height: 16px;
+    margin-right: 7.7px;
 }
 
-/**#cardSeparation {
+#cardSeparation {
     width: 302px;
-    height: 1px;
-    color: #2E405A;
-    border: none;
-}**/
+    border: 0.5px solid #2E405A;
+    margin: 0px 24px 0px 24px;
+}
 
 #cardCredits {
     width: 230px;
     height: 33px;
-    border-top: 1px solid #2E405A;
+    margin: 16px 96px 32px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #authorImg {
@@ -94,6 +116,7 @@ body {
     height: 33px;
     border: 1px solid white;
     border-radius: 100%;
+    margin-right: 16px;
 }
 
 #nftAuthor {

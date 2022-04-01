@@ -8,6 +8,14 @@ body {
     background-color: #0D192C;
 }
 
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 /** Component **/
 
 .container {

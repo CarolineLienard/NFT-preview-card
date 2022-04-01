@@ -7,15 +7,15 @@ This is my solution to the NFT card component Front-end mentor's challenge. This
 
 ### The challenge
 
-Your challenge is to build out this preview card component and get it looking as close to the design as possible.
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+The challenge is to build out this preview card component and get it looking as close to the design as possible.
+We can use any tools you like to help you complete the challenge. So if we've got something we'd like to practice, feel free to give it a go.
 
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-Ideas to test yourself :
+Ideas to test ourself :
 
 - Write your styles using a pre-processor, such as Sass, Less or Stylus
 - Train your eye for detail by getting your solution as close to the design as you can

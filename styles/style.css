@@ -18,7 +18,7 @@ a {
 
 /** Component **/
 
-.container {
+.cardContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ a {
     border-radius: 8px;
 }
 
-.overlay {
+.imageOverlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -62,7 +62,7 @@ a {
     display: none;
   }
 
-  .imageContainer:hover .overlay {
+  .imageContainer:hover .imageOverlay {
     display: inherit;
     display: flex;
     justify-content: center;
